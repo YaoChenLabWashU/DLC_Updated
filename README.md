@@ -1,4 +1,4 @@
-# DLC_version_control
+# DLC_Updated
 ALL RELEVANT DOCUMENTATION: https://tinyurl.com/yc57nfxj
 
 This is the repo to backup DLC trained-models specific to Yao Lab video datasets.
