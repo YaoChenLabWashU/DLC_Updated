@@ -1,0 +1,59 @@
+    # Project definitions (do not edit)
+Task: CC_finalIteration
+scorer: Samarth
+date: Jan26
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /storage1/fs1/yaochen/Active/DLC/Final_Models/night
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\Chen Lab\Desktop\DLC_final\Videos_for_DLC_quality_control\20220301_1612_SW_0034.mp4:
+    crop: 0, 640, 0, 480
+bodyparts:
+- nose
+- ear1
+- ear2
+- center
+- baseoftail
+- tail1
+- tail2
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 100
+
+    # Plotting configuration
+skeleton: [['nose','ear1'],['nose','ear2'],['ear1','ear2'],['ear1','center'],['ear2','center'],['center','baseoftail'],['baseoftail','tail1'],['tail1','tail2']]
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 6
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.90
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+croppedtraining: false

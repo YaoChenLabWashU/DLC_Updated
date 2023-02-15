@@ -1,0 +1,6 @@
+model_checkpoint_path: "/content/drive/My Drive/DLC_final/Circle_Cage/dlc-models/iteration-0/DLC_Test_SeptSep14-trainset95shuffle1/train/snapshot-1030000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/Circle_Cage/dlc-models/iteration-0/DLC_Test_SeptSep14-trainset95shuffle1/train/snapshot-850000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/Circle_Cage/dlc-models/iteration-0/DLC_Test_SeptSep14-trainset95shuffle1/train/snapshot-900000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/Circle_Cage/dlc-models/iteration-0/DLC_Test_SeptSep14-trainset95shuffle1/train/snapshot-950000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/Circle_Cage/dlc-models/iteration-0/DLC_Test_SeptSep14-trainset95shuffle1/train/snapshot-1000000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/Circle_Cage/dlc-models/iteration-0/DLC_Test_SeptSep14-trainset95shuffle1/train/snapshot-1030000"

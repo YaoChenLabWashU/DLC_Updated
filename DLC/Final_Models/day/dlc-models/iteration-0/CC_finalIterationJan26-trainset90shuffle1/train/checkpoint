@@ -1,0 +1,6 @@
+model_checkpoint_path: "/storage1/fs1/yaochen/Active/DLC/Test_Models/iteration2_day_night/day/dlc-models/iteration-0/CC_finalIterationJan26-trainset90shuffle1/train/snapshot-1030000"
+all_model_checkpoint_paths: "/storage1/fs1/yaochen/Active/DLC/Test_Models/iteration2_day_night/day/dlc-models/iteration-0/CC_finalIterationJan26-trainset90shuffle1/train/snapshot-850000"
+all_model_checkpoint_paths: "/storage1/fs1/yaochen/Active/DLC/Test_Models/iteration2_day_night/day/dlc-models/iteration-0/CC_finalIterationJan26-trainset90shuffle1/train/snapshot-900000"
+all_model_checkpoint_paths: "/storage1/fs1/yaochen/Active/DLC/Test_Models/iteration2_day_night/day/dlc-models/iteration-0/CC_finalIterationJan26-trainset90shuffle1/train/snapshot-950000"
+all_model_checkpoint_paths: "/storage1/fs1/yaochen/Active/DLC/Test_Models/iteration2_day_night/day/dlc-models/iteration-0/CC_finalIterationJan26-trainset90shuffle1/train/snapshot-1000000"
+all_model_checkpoint_paths: "/storage1/fs1/yaochen/Active/DLC/Test_Models/iteration2_day_night/day/dlc-models/iteration-0/CC_finalIterationJan26-trainset90shuffle1/train/snapshot-1030000"

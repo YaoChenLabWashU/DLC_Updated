@@ -1,0 +1,5 @@
+model_checkpoint_path: "/content/drive/My Drive/DLC_final/SD_cage-Samarth Aggarwal-2022-10-04/dlc-models/iteration-0/SD_cageOct4-trainset95shuffle1/train/snapshot-200000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/SD_cage-Samarth Aggarwal-2022-10-04/dlc-models/iteration-0/SD_cageOct4-trainset95shuffle1/train/snapshot-50000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/SD_cage-Samarth Aggarwal-2022-10-04/dlc-models/iteration-0/SD_cageOct4-trainset95shuffle1/train/snapshot-100000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/SD_cage-Samarth Aggarwal-2022-10-04/dlc-models/iteration-0/SD_cageOct4-trainset95shuffle1/train/snapshot-150000"
+all_model_checkpoint_paths: "/content/drive/My Drive/DLC_final/SD_cage-Samarth Aggarwal-2022-10-04/dlc-models/iteration-0/SD_cageOct4-trainset95shuffle1/train/snapshot-200000"

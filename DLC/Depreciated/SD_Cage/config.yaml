@@ -1,0 +1,106 @@
+    # Project definitions (do not edit)
+Task: SD_cage
+scorer: Samarth Aggarwal
+date: Oct4
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /storage1/fs1/yaochen/Active/DLC/SD_Cage
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00310.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00311.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00312.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00313.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00315.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00325.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00330.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00332.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00336.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00341.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00344.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG00350.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG003010.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG003212.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG003219.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG003312.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG003318.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_final\SD_Cage\Training\ltFLiPAKAREEGEMG003413.mp4:
+    crop: 0, 640, 0, 480
+  /storage1/fs1/yaochen/Active/DLC/SD_Cage/Testing/ltFLiPAKAREEGEMG00301.mp4:
+    crop: 0, 640, 0, 480
+  /storage1/fs1/yaochen/Active/DLC/SD_Cage/Testing/ltFLiPAKAREEGEMG00314.mp4:
+    crop: 0, 640, 0, 480
+bodyparts:
+- nose
+- ear1
+- ear2
+- center
+- baseoftail
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 0.3
+numframes2pick: 25
+
+    # Plotting configuration
+skeleton:
+- nose
+- ear1
+- ear2
+- center
+- baseoftail
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 7
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+croppedtraining: false

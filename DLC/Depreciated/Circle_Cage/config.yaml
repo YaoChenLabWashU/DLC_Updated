@@ -1,0 +1,128 @@
+    # Project definitions (do not edit)
+Task: DLC_Test_Sept
+scorer: Samarth Aggarwal
+date: Sep14
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /storage1/fs1/yaochen/Active/DLC/Circle_Cage
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220319_1630_SW_0036.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220319_1630_SW_0037.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220319_1630_SW_0038.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220319_1630_SW_0039.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220319_1630_SW_00310.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220319_1630_SW_00311.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220319_1630_SW_00312.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220331_1629_SW_0042.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220331_1629_SW_0043.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220331_1629_SW_0044.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220331_1629_SW_0045.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\20220331_1629_SW_0046.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG00210.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG00211.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG00212.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG00213.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005712.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005713.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005714.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005715.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005716.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005717.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005718.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005719.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltFLiPAKAREEGEMG005720.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltIPEEGEMG00037.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltIPEEGEMG00038.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltIPEEGEMG00039.mp4:
+    crop: 0, 640, 0, 480
+  C:\Users\Chen Lab\Desktop\DLC_Test_September\Training_videos\ltIPEEGEMG000310.mp4:
+    crop: 0, 640, 0, 480
+  /storage1/fs1/yaochen/Active/DLC/Circle_Cage/Testing/ltFLiPAKAREEGEMG004921.mp4:
+    crop: 0, 640, 0, 480
+  /storage1/fs1/yaochen/Active/DLC/Circle_Cage/Testing/ltFLiPAKAREEGEMG005013.mp4:
+    crop: 0, 640, 0, 480
+bodyparts:
+- nose
+- ear1
+- ear2
+- baseoftail
+- center
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 25
+
+    # Plotting configuration
+skeleton:
+- nose
+- ear1
+- ear2
+- baseoftail
+- center
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 6
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+croppedtraining: false
